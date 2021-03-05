@@ -1,22 +1,23 @@
+html{
+    height: 100%;
+}
 *{
-	margin: 0;
-	padding: 0;
-	max-width: 100vw;
-	max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
 }
 
 .containers{
-	position: relative;
-	margin-left: 350px;
+    position: relative;
 }
 
 .circles{
-	position: absolute;
-	width: 10px;
-	height: 10px;
-	opacity: 70%;
-	border-radius: 50%;
-	transition: 3s ease;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    opacity: 70%;
+    border-radius: 50%;
+    transition: 3s ease;
 }
 
 
@@ -25,172 +26,172 @@
 
 
 #C0{
-	top: 100px;
-	left: -100px;
-	background-color: #28527a;
-	z-index: 1;
+    top: 80px;
+    left: 400px;
+    background-color: #28527a;
+    z-index: 1;
 }
 
 #C1{
-	top: 40px;
-	left: 40px;
-	background-color: #8ac4d0;
-	z-index: 1;
+    top: 40px;
+    left: 560px;
+    background-color: #8ac4d0;
+    z-index: 1;
 }
 
 #C2{
-	top: 200px;
-	left: -100px;
-	background-color: #f4d160;
-	z-index: 1;
+    top: 330px;
+    left: 330px;
+    background-color: #f4d160;
+    z-index: 1;
 }
 
 #C3{
-	top: 300px;
-	left: -300px;
-	background-color: #fbeeac;
-	z-index: 1;
+    top: 540px;
+    left: 50px;
+    background-color: #fbeeac;
+    z-index: 1;
 }
 
 #C4{
-	top: 50px;
-	left: -20px;
-	background-color: #4a47a3;
-	z-index: 1;
+    top: 180px;
+    left: 1080px;
+    background-color: #4a47a3;
+    z-index: 1;
 }
 
-#C5{	
-	top: 140px;
-	left: 10px;
-	background-color: #e97878;
-	z-index: 1;
+#C5{    
+    top: 120px;
+    left: 500px;
+    background-color: #e97878;
+    z-index: 1;
 }
 
-#C6{	
-	top: 5px;
-	left: -140px;
-	background-color: #9b5151;
-	z-index: 1;
+#C6{    
+    top: 30px;
+    left: 200px;
+    background-color: #9b5151;
+    z-index: 1;
 }
 
-#C7{	
-	top: 230px;
-	left: -200px;
-	background-color: #763857;
-	z-index: 1;
+#C7{    
+    top: 400px;
+    left: 880px;
+    background-color: #763857;
+    z-index: 1;
 }
 
-#C8{	
-	top: 10px;
-	left: 100px;
-	background-color: #ffaec0;
-	z-index: 1;
+#C8{    
+    top: 10px;
+    left: 640px;
+    background-color: #ffaec0;
+    z-index: 1;
 }
 
-#C9{	
-	top: 180px;
-	left: 180px;
-	background-color: #bfb051;
-	z-index: 1;
+#C9{    
+    top: 500px;
+    left: 1050px;
+    background-color: #bfb051;
+    z-index: 1;
 }
 
-#C10{	
-	top: 240px;
-	left: 300px;
-	background-color: #beca5c;
-	z-index: 1;
+#C10{   
+    top: 340px;
+    left: 1150px;
+    background-color: #beca5c;
+    z-index: 1;
 }
 
-#C11{	
-	top: 80px;
-	left: 80px;
-	background-color: #ef8d32;
-	z-index: 1;
+#C11{   
+    top: 200px;
+    left: 680px;
+    background-color: #ef8d32;
+    z-index: 1;
 }
 
-#C12{	
-	top: 320px;
-	left: 80px;
-	background-color: #cc561e;
-	z-index: 1;
+#C12{   
+    top: 590px;
+    left: 730px;
+    background-color: #cc561e;
+    z-index: 1;
 }
 
-#C13{	
-	top: 280px;
-	left: 230px;
-	background-color: #aa2b1d;
-	z-index: 1;
+#C13{   
+    top: 450px;
+    left: 200px;
+    background-color: #aa2b1d;
+    z-index: 1;
 }
 
-#C14{	
-	top: 230px;
-	left: 130px;
-	background-color: #ff8e71;
-	z-index: 1;
+#C14{   
+    top: 280px;
+    left: 800px;
+    background-color: #ff8e71;
+    z-index: 1;
 }
 
-#C15{	
-	top: 40px;
-	left: -250px;
-	background-color: #ffba93;
-	z-index: 1;
+#C15{   
+    top: 60px;
+    left: 750px;
+    background-color: #ffba93;
+    z-index: 1;
 }
 
-#C16{	
-	top: 110px;
-	left: 270px;
-	background-color: #9f5f80;
-	z-index: 1;
+#C16{   
+    top: 240px;
+    left: 1200px;
+    background-color: #9f5f80;
+    z-index: 1;
 }
 
-#C17{	
-	top: 120px;
-	left: 140px;
-	background-color: #583d72;
-	z-index: 1;
+#C17{   
+    top: 150px;
+    left: 900px;
+    background-color: #583d72;
+    z-index: 1;
 }
 
-#C18{	
-	top: 20px;
-	left: 230px;
-	background-color: #c62a88;
-	z-index: 1;
+#C18{   
+    top: 20px;
+    left: 990px;
+    background-color: #c62a88;
+    z-index: 1;
 }
 
-#C19{	
-	top: 150px;
-	left: -160px;
-	background-color: #03c4a1;
-	z-index: 1;
+#C19{   
+    top: 250px;
+    left: 450px;
+    background-color: #03c4a1;
+    z-index: 1;
 }
 
-#C20{	
-	top: 200px;
-	left: -270px;
-	background-color: #150485;
-	z-index: 1;
+#C20{   
+    top: 200px;
+    left: 100px;
+    background-color: #150485;
+    z-index: 1;
 }
 
-#C21{	
-	top: 325px;
-	left: -140px;
-	background-color: #bfdcae;
-	z-index: 1;
+#C21{   
+    top: 570px;
+    left: 260px;
+    background-color: #bfdcae;
+    z-index: 1;
 }
 
-#C22{	
-	top: 280px;
-	left: -50px;
-	background-color: #81b214;
-	z-index: 1;
+#C22{   
+    top: 500px;
+    left: 400px;
+    background-color: #81b214;
+    z-index: 1;
 
 }
 
-#C23{	
-	top: 130px;
-	left: -300px;
-	background-color: #ed6363;
-	z-index: 1;
+#C23{   
+    top: 370px;
+    left: 20px;
+    background-color: #ed6363;
+    z-index: 1;
 }
 
 
@@ -198,171 +199,172 @@
 
 
 #C0B{
-	top: 100px;
-	left: -100px;
-	background-color: #28527a;
-	z-index: 0
+    top: 80px;
+    left: 400px;
+    background-color: #28527a;
+    z-index: 0;
 }
 
 #C1B{
-	top: 40px;
-	left: 40px;
-	background-color: #8ac4d0;
-	z-index: 0
+    top: 40px;
+    left: 560px;
+    background-color: #8ac4d0;
+    z-index: 0;
 }
 
 #C2B{
-	top: 200px;
-	left: -100px;
-	background-color: #f4d160;
-	z-index: 0
+    top: 330px;
+    left: 330px;
+    background-color: #f4d160;
+    z-index: 0;
 }
 
 #C3B{
-	top: 300px;
-	left: -300px;
-	background-color: #fbeeac;
-	z-index: 0
+    top: 540px;
+    left: 50px;
+    background-color: #fbeeac;
+    z-index: 0;
 }
 
 #C4B{
-	top: 50px;
-	left: -20px;
-	background-color: #4a47a3;
-	z-index: 0
+    top: 180px;
+    left: 1080px;
+    background-color: #4a47a3;
+    z-index: 0;
 }
 
-#C5B{
-	top: 140px;
-	left: 10px;
-	background-color: #e97878;
-	z-index: 0
+#C5B{   
+    top: 120px;
+    left: 500px;
+    background-color: #e97878;
+    z-index: 0;
 }
 
-#C6B{
-	top: 5px;
-	left: -140px;
-	background-color: #9b5151;
-	z-index: 0
+#C6B{   
+    top: 30px;
+    left: 200px;
+    background-color: #9b5151;
+    z-index: 0;
 }
 
-#C7B{	
-	top: 230px;
-	left: -200px;
-	background-color: #763857;
-	z-index: 0
+#C7B{   
+    top: 400px;
+    left: 880px;
+    background-color: #763857;
+    z-index: 0;
 }
 
-#C8B{	
-	top: 10px;
-	left: 100px;
-	background-color: #ffaec0;
-	z-index: 0
+#C8B{   
+    top: 10px;
+    left: 640px;
+    background-color: #ffaec0;
+    z-index: 0;
 }
 
-#C9B{	
-	top: 180px;
-	left: 180px;
-	background-color: #bfb051;
-	z-index: 0
+#C9B{   
+    top: 500px;
+    left: 1050px;
+    background-color: #bfb051;
+    z-index: 0;
 }
 
-#C10B{	
-	top: 240px;
-	left: 300px;
-	background-color: #beca5c;
-	z-index: 0
+#C10B{  
+    top: 340px;
+    left: 1150px;
+    background-color: #beca5c;
+    z-index: 0;
 }
 
-#C11B{	
-	top: 80px;
-	left: 80px;
-	background-color: #ef8d32;
-	z-index: 0
+#C11B{  
+    top: 200px;
+    left: 680px;
+    background-color: #ef8d32;
+    z-index: 0;
 }
 
-#C12B{	
-	top: 320px;
-	left: 80px;
-	background-color: #cc561e;
-	z-index: 0
+#C12B{  
+    top: 590px;
+    left: 730px;
+    background-color: #cc561e;
+    z-index: 0;
 }
 
-#C13B{	
-	top: 280px;
-	left: 230px;
-	background-color: #aa2b1d;
-	z-index: 0
+#C13B{  
+    top: 450px;
+    left: 200px;
+    background-color: #aa2b1d;
+    z-index: 0;
 }
 
-#C14B{
-	top: 230px;
-	left: 130px;
-	background-color: #ff8e71;
-	z-index: 0
+#C14B{  
+    top: 280px;
+    left: 800px;
+    background-color: #ff8e71;
+    z-index: 0;
 }
 
-#C15B{	
-	top: 40px;
-	left: -250px;
-	background-color: #ffba93;
-	z-index: 0
+#C15B{  
+    top: 60px;
+    left: 750px;
+    background-color: #ffba93;
+    z-index: 0;
 }
 
-#C16B{	
-	top: 110px;
-	left: 270px;
-	background-color: #9f5f80;
-	z-index: 0
+#C16B{  
+    top: 240px;
+    left: 1200px;
+    background-color: #9f5f80;
+    z-index: 0;
 }
 
-#C17B{	
-	top: 120px;
-	left: 140px;
-	background-color: #583d72;
-	z-index: 0
+#C17B{  
+    top: 150px;
+    left: 900px;
+    background-color: #583d72;
+    z-index: 0;
 }
 
-#C18B{	
-	top: 20px;
-	left: 230px;
-	background-color: #c62a88;
-	z-index: 0
+#C18B{  
+    top: 20px;
+    left: 990px;
+    background-color: #c62a88;
+    z-index: 0;
 }
 
-#C19B{	
-	top: 150px;
-	left: -160px;
-	background-color: #03c4a1;
-	z-index: 0
+#C19B{  
+    top: 250px;
+    left: 450px;
+    background-color: #03c4a1;
+    z-index: 0;
 }
 
-#C20B{	
-	top: 200px;
-	left: -270px;
-	background-color: #150485;
-	z-index: 0
+#C20B{  
+    top: 200px;
+    left: 100px;
+    background-color: #150485;
+    z-index: 0;
 }
 
-#C21B{	
-	top: 325px;
-	left: -140px;
-	background-color: #bfdcae;
-	z-index: 0
+#C21B{  
+    top: 570px;
+    left: 260px;
+    background-color: #bfdcae;
+    z-index: 0;
 }
 
-#C22B{	
-	top: 280px;
-	left: -50px;
-	background-color: #81b214;
-	z-index: 0
+#C22B{  
+    top: 500px;
+    left: 400px;
+    background-color: #81b214;
+    z-index: 0;
+
 }
 
-#C23B{	
-	top: 130px;
-	left: -300px;
-	background-color: #ed6363;
-	z-index: 0
+#C23B{  
+    top: 370px;
+    left: 20px;
+    background-color: #ed6363;
+    z-index: 0;
 }
 
 
@@ -548,7 +550,7 @@
 }
 
 #C1:hover ~ #C5{
-    transform: scaleY(55);
+    transform: scaleX(30);
     border-radius:0%;
     transition-delay: 1.5s;
 }   
@@ -567,7 +569,7 @@
 }
 
 #C1:hover ~ #C8{
-    transform: scaleY(55);
+    transform: scaleY(45);
     border-radius:0%;
     transition-delay: 2.4s;
 }
@@ -586,7 +588,7 @@
 }
 
 #C1:hover ~ #C11{
-    transform: scaleX(25);
+    transform: scaleX(15);
     border-radius:0%;
     transition-delay: 3.3s;
 }
@@ -616,13 +618,13 @@
 }
 
 #C1:hover ~ #C16{
-    transform: scaleY(42);
+    transform: scaleY(30);
     border-radius:0%;
     transition-delay: 4.8s;
 }
 
 #C1:hover ~ #C17{
-    transform: scaleY(30);
+    transform: scaleY(10);
     border-radius:0%;
     transition-delay: 5.1s;
 }
@@ -644,7 +646,7 @@
     transform: scale(10);
     border-radius:0%;
     transition-delay: 6s;
-    z-index: -1;
+    z-index: 1;
 }
 
 #C1:hover ~ #C21{
@@ -661,12 +663,13 @@
 }
 
 #C1:hover ~ #C23{
-    transform: scale(20);
+    transform: scale(23);
     border-radius:0%;
     transition-delay: 6.9s;
     opacity: 30%;
     z-index: -2;
 }
+
 
 
 
@@ -692,7 +695,7 @@
 }
 
 #C2:hover ~ #C4{
-    transform: scaleY(25);
+    transform: scaleX(15);
     border-radius:0%;
     transition-delay: 1.2s;
 }
@@ -753,7 +756,7 @@
 }
 
 #C2:hover ~ #C14{
-    transform: scale(10);
+    transform: scale(5);
     border-radius:0%;
     transition-delay: 4.2s;
 }
@@ -828,7 +831,7 @@
 }
 
 #C3:hover ~ #C1B{
-    transform: scaleY(25);
+    transform: scaleY(15);
     border-radius:0%;
     transition-delay: .6s;
 }
@@ -864,7 +867,7 @@
 }
 
 #C3:hover ~ #C8{
-    transform: scaleY(17);
+    transform: scaleY(25);
     border-radius:0%;
     transition-delay: 2.4s;
 }
@@ -903,7 +906,7 @@
 }
 
 #C3:hover ~ #C14{
-    transform: scale(10);
+    transform: scale(18);
     border-radius:0%;
     transition-delay: 4.2s;
 }
@@ -921,7 +924,7 @@
 }
 
 #C3:hover ~ #C17{
-    transform: scaleY(30);
+    transform: scaleY(15);
     border-radius:0%;
     transition-delay: 5.1s;
 }
@@ -934,7 +937,7 @@
 }
 
 #C3:hover ~ #C19{
-    transform: scale(10);
+    transform: scale(6);
     border-radius:0%;
     transition-delay: 5.7s;
 }
@@ -960,7 +963,7 @@
 }
 
 #C3:hover ~ #C23{
-    transform: scale(20);
+    transform: scale(10);
     border-radius:0%;
     transition-delay: 6.9s;
     opacity: 30%;
@@ -1011,7 +1014,7 @@
 }
 
 #C4:hover ~ #C7{
-    transform: scaleX(10);
+    transform: scaleY(25);
     border-radius:0%;
     transition-delay: 2.1s;
 }
@@ -1054,7 +1057,7 @@
 }
 
 #C4:hover ~ #C14{
-    transform: scaleY(13);
+    transform: scaleX(13);
     border-radius:0%;
     transition-delay: 4.2s;
 }
@@ -1072,7 +1075,7 @@
 }
 
 #C4:hover ~ #C17{
-    transform: scaleY(30);
+    transform: scaleX(25);
     border-radius:0%;
     transition-delay: 5.1s;
 }
@@ -1085,7 +1088,7 @@
 }
 
 #C4:hover ~ #C19{
-    transform: scale(5);
+    transform: scaleX(18);
     border-radius:0%;
     transition-delay: 5.7s;
 }
@@ -1104,7 +1107,7 @@
 }
 
 #C4:hover ~ #C22{
-    transform: scaleY(10);
+    transform: scaleX(10);
     border-radius:0%;
     transition-delay: 6.6s;
     opacity: 50%;
@@ -1161,7 +1164,7 @@
 }
 
 #C5:hover ~ #C7{
-    transform: scaleX(10);
+    transform: scaleY(10);
     border-radius:0%;
     transition-delay: 2.1s;
 }
@@ -1224,7 +1227,7 @@
 }
 
 #C5:hover ~ #C17{
-    transform: scaleX(30);
+    transform: scaleY(30);
     border-radius:0%;
     transition-delay: 5.1s;
 }
@@ -1237,7 +1240,7 @@
 }
 
 #C5:hover ~ #C19{
-    transform: scaleY(5);
+    transform: scaleY(8);
     border-radius:0%;
     transition-delay: 5.7s;
 }
@@ -1267,7 +1270,7 @@
     border-radius:0%;
     transition-delay: 6.9s;
     opacity: 30%;
-    z-index: -2;
+    z-index: 2;
 }
 
 
@@ -1283,13 +1286,13 @@
 }
 
 #C6:hover ~ #C1B{
-    transform: scaleX(20);
+    transform: scaleY(20);
     border-radius:0%;
     transition-delay: .6s;
 }
 
 #C6:hover ~ #C2B{
-    transform: scale(25);
+    transform: scale(22);
     border-radius:0%;
     transition-delay: .9s;
     opacity: .4;
@@ -1303,13 +1306,13 @@
 }
 
 #C6:hover ~ #C4B{
-    transform: scaleY(20);
+    transform: scaleY(10);
     border-radius:0%;
     transition-delay: 1.5s;
 }    
 
 #C6:hover ~ #C5B{
-    transform: scaleX(10);
+    transform: scaleY(10);
     border-radius:0%;
     transition-delay: 1.8s;
     opacity: .4;
@@ -1335,7 +1338,7 @@
 }
 
 #C6:hover ~ #C10{
-    transform: scale(10);
+    transform: scale(13);
     border-radius:0%;
     transition-delay: 3s;
 }
@@ -1361,7 +1364,7 @@
 }
 
 #C6:hover ~ #C14{
-    transform: scaleY(13);
+    transform: scaleX(25);
     border-radius:0%;
     transition-delay: 4.2s;
 }
@@ -1373,7 +1376,7 @@
 }
 
 #C6:hover ~ #C16{
-    transform: scaleX(42);
+    transform: scaleY(10);
     border-radius:0%;
     transition-delay: 4.8s;
 }
@@ -1418,7 +1421,7 @@
 }
 
 #C6:hover ~ #C23{
-    transform: scaleX(20);
+    transform: scale(20);
     border-radius:0%;
     transition-delay: 6.9s;
     opacity: 30%;
@@ -1457,7 +1460,7 @@
 }
 
 #C7:hover ~ #C4B{
-    transform: scaleY(20);
+    transform: scaleY(15);
     border-radius:0%;
     transition-delay: 1.5s;
 }    
@@ -1476,7 +1479,7 @@
 }
 
 #C7:hover ~ #C8{
-    transform: scaleY(17);
+    transform: scaleY(30);
     border-radius:0%;
     transition-delay: 2.4s;
 }
@@ -1489,7 +1492,7 @@
 }
 
 #C7:hover ~ #C10{
-    transform: scaleX(10);
+    transform: scaleX(25);
     border-radius:0%;
     transition-delay: 3s;
 }
@@ -1506,6 +1509,7 @@
     transform: scale(30);
     border-radius:0%;
     transition-delay: 3.6s;
+    opacity: .4;
 }
 
 #C7:hover ~ #C13{
@@ -1546,13 +1550,13 @@
 }
 
 #C7:hover ~ #C19{
-    transform: scaleY(5);
+    transform: scale(5);
     border-radius:0%;
     transition-delay: 5.7s;
 }
 
 #C7:hover ~ #C20{
-    transform: scaleX(10);
+    transform: scaleX(20);
     border-radius:0%;
     transition-delay: 6s;
     z-index: 5;
@@ -1592,13 +1596,13 @@
 }
 
 #C8:hover ~ #C1B{
-    transform: scale(10);
+    transform: scaleY(10);
     border-radius:0%;
     transition-delay: .6s;
 }
 
 #C8:hover ~ #C2B{
-    transform: scaleY(7);
+    transform: scaleY(15);
     border-radius:0%;
     transition-delay: .9s;
     opacity: .4;
@@ -1606,7 +1610,7 @@
 }
 
 #C8:hover ~ #C3B{
-    transform: scaleY(20);
+    transform: scaleX(40);
     border-radius:0%;
     transition-delay: 1.2s;
 }
@@ -1651,13 +1655,13 @@
 }
 
 #C8:hover ~ #C11{
-    transform: scaleX(16);
+    transform: scaleX(25);
     border-radius:0%;
     transition-delay: 3.3s;
 }
 
 #C8:hover ~ #C12{
-    transform: scale(30);
+    transform: scale(10);
     border-radius:0%;
     transition-delay: 3.6s;
 }
@@ -1687,7 +1691,7 @@
 }
 
 #C8:hover ~ #C17{
-    transform: scaleY(30);
+    transform: scaleY(20);
     border-radius:0%;
     transition-delay: 5.1s;
 }
@@ -1706,7 +1710,7 @@
 }
 
 #C8:hover ~ #C20{
-    transform: scaleX(10);
+    transform: scaleX(5);
     border-radius:0%;
     transition-delay: 6s;
     z-index: 5;
@@ -1745,9 +1749,10 @@
 }
 
 #C9:hover ~ #C1B{
-    transform: scale(10);
+    transform: scale(20);
     border-radius:0%;
     transition-delay: .6s;
+    z-index: -2;
 }
 
 #C9:hover ~ #C2B{
@@ -1784,7 +1789,7 @@
 }
 
 #C9:hover ~ #C7B{
-    transform: scale(17);
+    transform: scale(13);
     border-radius:0%;
     transition-delay: 2.4s;
     opacity: .5;
@@ -1797,21 +1802,22 @@
 }
 
 #C9:hover ~ #C10{
-    transform: scaleY(11);
+    transform: scaleY(15);
     border-radius:0%;
     transition-delay: 3s;
 }
 
 #C9:hover ~ #C11{
-    transform: scaleX(16);
+    transform: scaleY(5);
     border-radius:0%;
     transition-delay: 3.3s;
 }
 
 #C9:hover ~ #C12{
-    transform: scaleX(30);
+    transform: scaleY(20);
     border-radius:0%;
     transition-delay: 3.6s;
+    opacity: .4;
 }
 
 #C9:hover ~ #C13{
@@ -1827,7 +1833,7 @@
 }
 
 #C9:hover ~ #C15{
-    transform: scaleX(50);
+    transform: scaleX(20);
     border-radius:0%;
     transition-delay: 4.5s;
 }
@@ -1839,7 +1845,7 @@
 }
 
 #C9:hover ~ #C17{
-    transform: scaleY(30);
+    transform: scaleY(25);
     border-radius:0%;
     transition-delay: 5.1s;
 }
@@ -1852,16 +1858,17 @@
 }
 
 #C9:hover ~ #C19{
-    transform: scaleY(5);
+    transform: scaleX(15);
     border-radius:0%;
     transition-delay: 5.7s;
 }
 
 #C9:hover ~ #C20{
-    transform: scaleX(10);
+    transform: scale(45);
     border-radius:0%;
     transition-delay: 6s;
-    z-index: 5;
+    z-index: -5;
+    opacity: .4;
 }
 
 #C9:hover ~ #C21{
@@ -1949,7 +1956,7 @@
 }
 
 #C10:hover ~ #C9B{
-    transform: scale(11);
+    transform: scale(6);
     border-radius:0%;
     transition-delay: 3s;
 }
@@ -1964,6 +1971,7 @@
     transform: scale(30);
     border-radius:0%;
     transition-delay: 3.6s;
+    opacity: .3;
 }
 
 #C10:hover ~ #C13{
@@ -1979,9 +1987,11 @@
 }
 
 #C10:hover ~ #C15{
-    transform: scale(50);
+    transform: scale(35);
     border-radius:0%;
     transition-delay: 4.5s;
+    opacity: .3;
+    z-index: -5;
 }
 
 #C10:hover ~ #C16{
@@ -2011,10 +2021,11 @@
 }
 
 #C10:hover ~ #C20{
-    transform: scale(10);
-    border-radius:0%;
+    transform: scale(35);
+     border-radius:0%;
     transition-delay: 6s;
-    z-index: 5;
+    z-index: -5;
+    opacity: .5;
 }
 
 #C10:hover ~ #C21{
@@ -2024,7 +2035,7 @@
 }
 
 #C10:hover ~ #C22{
-    transform: scale(10);
+    transform: scale(5);
     border-radius:0%;
     transition-delay: 6.6s;
     opacity: 50%;
@@ -2050,16 +2061,16 @@
 }
 
 #C11:hover ~ #C1B{
-    transform: scaleY(10);
+    transform: scaleY(15);
     border-radius:0%;
     transition-delay: .6s;
 }
 
 #C11:hover ~ #C2B{
-    transform: scale(7);
+    transform: scale(17);
     border-radius:0%;
     transition-delay: .9s;
-    opacity: .4;
+    opacity: .7;
     z-index:-3;
 }
 
@@ -2096,13 +2107,13 @@
 }
 
 #C11:hover ~ #C8B{
-    transform: scaleX(35);
+    transform: scaleY(35);
     border-radius:0%;
     transition-delay: 2.7s;
 }
 
 #C11:hover ~ #C9B{
-    transform: scaleY(11);
+    transform: scale(15);
     border-radius:0%;
     transition-delay: 3s;
 }
@@ -2114,7 +2125,7 @@
 }
 
 #C11:hover ~ #C12{
-    transform: scaleX(30);
+    transform: scale(15);
     border-radius:0%;
     transition-delay: 3.6s;
 }
@@ -2132,7 +2143,7 @@
 }
 
 #C11:hover ~ #C15{
-    transform: scaleX(50);
+    transform: scaleX(40);
     border-radius:0%;
     transition-delay: 4.5s;
 }
@@ -2177,7 +2188,7 @@
 }
 
 #C11:hover ~ #C22{
-    transform: scaleX(10);
+    transform: scaleY(15);
     border-radius:0%;
     transition-delay: 6.6s;
     opacity: 50%;
@@ -2197,7 +2208,7 @@
 
 
 #C12:hover ~ #C0B{
-    transform: scaleY(5);
+    transform: scaleX(5);
     border-radius:0%;
     transition-delay: .6s;
 }
@@ -2209,7 +2220,7 @@
 }
 
 #C12:hover ~ #C2B{
-    transform: scale(7);
+    transform: scaleX(7);
     border-radius:0%;
     transition-delay: .9s;
     opacity: .4;
@@ -2217,7 +2228,7 @@
 }
 
 #C12:hover ~ #C3B{
-    transform: scale(20);
+    transform: scaleX(20);
     border-radius:0%;
     transition-delay: 1.2s;
 }
@@ -2229,14 +2240,14 @@
 }    
 
 #C12:hover ~ #C5B{
-    transform: scaleY(30);
+    transform: scaleY(10);
     border-radius:0%;
     transition-delay: 1.8s;
     opacity: .4;
 }
 
 #C12:hover ~ #C6B{
-    transform: scale(10);
+    transform: scaleX(10);
     border-radius:0%;
     transition-delay: 2.1s;
 }
@@ -2249,19 +2260,19 @@
 }
 
 #C12:hover ~ #C8B{
-    transform: scale(35);
+    transform: scale(5);
     border-radius:0%;
     transition-delay: 2.7s;
 }
 
 #C12:hover ~ #C9B{
-    transform: scaleY(11);
+    transform: scale(10);
     border-radius:0%;
     transition-delay: 3s;
 }
 
 #C12:hover ~ #C10B{
-    transform: scaleX(16);
+    transform: scaleY(16);
     border-radius:0%;
     transition-delay: 3.3s;
 }
@@ -2279,7 +2290,7 @@
 }
 
 #C12:hover ~ #C14{
-    transform: scaleY(23);
+    transform: scaleY(30);
     border-radius:0%;
     transition-delay: 4.2s;
 }
@@ -2291,7 +2302,7 @@
 }
 
 #C12:hover ~ #C16{
-    transform: scaleX(24);
+    transform: scaleY(24);
     border-radius:0%;
     transition-delay: 4.8s;
 }
@@ -2330,7 +2341,7 @@
 }
 
 #C12:hover ~ #C22{
-    transform: scale(15);
+    transform: scale(8);
     border-radius:0%;
     transition-delay: 6.6s;
     opacity: 50%;
@@ -2432,9 +2443,10 @@
 }
 
 #C13:hover ~ #C14{
-    transform: scaleY(23);
+    transform: scale(23);
     border-radius:0%;
     transition-delay: 4.2s;
+    opacity: .5;
 }
 
 #C13:hover ~ #C15{
@@ -2457,10 +2469,9 @@
 }
 
 #C13:hover ~ #C18{
-    transform: scale(10);
+    transform: scale(5);
     border-radius:0%;
     transition-delay: 5.4s;
-    opacity: 45%;
 }
 
 #C13:hover ~ #C19{
@@ -2503,13 +2514,13 @@
 
 
 #C14:hover ~ #C0B{
-    transform: scaleX(5);
+    transform: scaleY(5);
     border-radius:0%;
     transition-delay: .6s;
 }
 
 #C14:hover ~ #C1B{
-    transform: scaleX(10);
+    transform: scale(20);
     border-radius:0%;
     transition-delay: .6s;
 }
@@ -2518,7 +2529,7 @@
     transform: scale(7);
     border-radius:0%;
     transition-delay: .9s;
-    opacity: .4;
+    opacity: .5;
     z-index:-3;
 }
 
@@ -2598,16 +2609,15 @@
 }
 
 #C14:hover ~ #C16{
-    transform: scaleX(20);
+    transform: scaleY(20);
     border-radius:0%;
     transition-delay: 4.8s;
 }
 
 #C14:hover ~ #C17{
-    transform: scaleY(35);
+    transform: scaleY(40);
     border-radius:0%;
     transition-delay: 5.1s;
-    opacity: .3;
 }
 
 #C14:hover ~ #C18{
@@ -2709,7 +2719,7 @@
 }
 
 #C15:hover ~ #C8B{
-    transform: scaleX(25);
+    transform: scaleX(20);
     border-radius:0%;
     transition-delay: 2.7s;
 }
@@ -2758,7 +2768,7 @@
 }
 
 #C15:hover ~ #C17{
-    transform: scaleY(30);
+    transform: scaleY(40);
     border-radius:0%;
     transition-delay: 5.1s;
 }
@@ -2899,7 +2909,7 @@
 }
 
 #C16:hover ~ #C14B{
-    transform: scaleX(20);
+    transform: scaleY(20);
     border-radius:0%;
     transition-delay: 4.5s;
 }
@@ -3058,7 +3068,7 @@
 }
 
 #C17:hover ~ #C15B{
-    transform: scaleY(20);
+    transform: scaleY(45);
     border-radius:0%;
     transition-delay: 4.8s;
 }
@@ -3116,9 +3126,10 @@
 
 
 #C18:hover ~ #C0B{
-    transform: scaleY(5);
+    transform: scale(45);
     border-radius:0%;
     transition-delay: .6s;
+    z-index: -5;
 }
 
 #C18:hover ~ #C1B{
@@ -3128,7 +3139,7 @@
 }
 
 #C18:hover ~ #C2B{
-    transform: scaleX(20);
+    transform: scale(25);
     border-radius:0%;
     transition-delay: .9s;
     opacity: .4;
@@ -3142,7 +3153,7 @@
 }
 
 #C18:hover ~ #C4B{
-    transform: scaleY(10);
+    transform: scale(15);
     border-radius:0%;
     transition-delay: 1.5s;
 }    
@@ -3155,9 +3166,10 @@
 }
 
 #C18:hover ~ #C6B{
-    transform: scale(17);
+    transform: scale(10);
     border-radius:0%;
     transition-delay: 2.1s;
+    opacity: .4;
 }
 
 #C18:hover ~ #C7B{
@@ -3206,9 +3218,11 @@
 }
 
 #C18:hover ~ #C14B{
-    transform: scaleX(25);
+    transform: scale(10);
     border-radius:0%;
     transition-delay: 4.5s;
+    opacity: .5;
+    z-index: -5;
 }
 
 #C18:hover ~ #C15B{
@@ -3224,10 +3238,10 @@
 }
 
 #C18:hover ~ #C17B{
-    transform: scaleY(7);
+    transform: scale(10);
     border-radius:0%;
     transition-delay: 5.4s;
-    opacity: 45%;
+    opacity: .4;
 }
 
 #C18:hover ~ #C19{
@@ -3356,19 +3370,20 @@
     transform: scale(26);
     border-radius:0%;
     transition-delay: 4.2s;
-    opacity：.25;
+    opacityï¼š.25;
 }
 
 #C19:hover ~ #C14B{
-    transform: scaleX(25);
+    transform: scaleY(25);
     border-radius:0%;
     transition-delay: 4.5s;
 }
 
 #C19:hover ~ #C15B{
-    transform: scale(10);
+    transform: scale(5);
     border-radius:0%;
     transition-delay: 4.8s;
+    z-index: 10;
 }
 
 #C19:hover ~ #C16B{
@@ -3438,14 +3453,15 @@
     transform: scaleX(20);
     border-radius:0%;
     transition-delay: .9s;
-    opacity: .4;
-    z-index:-3;
+    opacity: .8;
+    z-index:5;
 }
 
 #C20:hover ~ #C3B{
     transform: scaleX(10);
     border-radius:0%;
     transition-delay: 1.2s;
+    z-index: 5;
 }
 
 #C20:hover ~ #C4B{
@@ -3589,6 +3605,7 @@
     transform: scale(5);
     border-radius:0%;
     transition-delay: .6s;
+    z-index: 5;
 }
 
 #C21:hover ~ #C2B{
@@ -3683,6 +3700,7 @@
     transform: scale(8);
     border-radius:0%;
     transition-delay: 4.8s;
+    z-index: 5;
 }
 
 #C21:hover ~ #C16B{
@@ -3770,10 +3788,9 @@
 }    
 
 #C22:hover ~ #C5B{
-    transform: scale(21);
+    transform: scaleY(25);
     border-radius:0%;
     transition-delay: 1.8s;
-    opacity: .4;
 }
 
 #C22:hover ~ #C6B{
@@ -3786,7 +3803,7 @@
     transform: scale(12);
     border-radius:0%;
     transition-delay: 2.4s;
-    opacity: .5;
+    opacity: .3;
 }
 
 #C22:hover ~ #C8B{
@@ -3827,7 +3844,7 @@
     transform: scale(3);
     border-radius:0%;
     transition-delay: 4.2s;
-    opacityï¼š.25;
+    opacityÃ¯Â¼Å¡.25;
 }
 
 #C22:hover ~ #C14B{
@@ -3987,7 +4004,6 @@
     transform: scale(3);
     border-radius:0%;
     transition-delay: 4.2s;
-    opacity: 45%;
 }
 
 #C23:hover ~ #C14B{
